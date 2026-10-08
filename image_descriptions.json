@@ -1,0 +1,128 @@
+[
+    {
+        "source": "1901.08204v1.pdf",
+        "page": 1,
+        "image_number": 1,
+        "image_path": "extracted_images\\1901.08204v1\\page_1_img_1.png",
+        "description": "The image is a flowchart depicting a process for defect detection in images, likely related to printed circuit boards (PCBs). Here's a breakdown:\n\n1. **Content**: The flowchart outlines a sequence of steps for processing images to detect defects. It includes preprocessing steps and a defect detection phase.\n\n2. **Type**: It is a flowchart, specifically a diagram used to illustrate a process.\n\n3. **Text**: Key text includes:\n   - \"Test Image\"\n   - \"Template\"\n   - \"Dataset\"\n   - \"Collect Data\"\n   - \"Train Model\"\n   - \"Defect Classification\"\n   - \"Results\"\n   - \"Preprocessing\"\n   - \"Defects Detection\"\n   - \"Convert to Gray Scale\"\n   - \"Registration\"\n   - \"Binaryization\"\n   - \"XOR\"\n   - \"Filtering & Mathematical Morphology\"\n\n4. **Technical Information**: The flowchart shows a series of steps:\n   - **Preprocessing**: Converts the test image to grayscale, registers it with a template, and then binaryizes it.\n   - **Defects Detection**: Applies XOR operation and filtering with mathematical morphology to detect defects.\n   - **Defect Classification**: Likely involves training a model on a dataset to classify detected defects.\n\nThis flowchart is likely used in an automated system for quality control in PCB manufacturing."
+    },
+    {
+        "source": "1901.08204v1.pdf",
+        "page": 2,
+        "image_number": 1,
+        "image_path": "extracted_images\\1901.08204v1\\page_2_img_1.jpeg",
+        "description": "1. The image contains a workspace with various electronic components and tools. A person is working on a circuit board under magn"
+    },
+    {
+        "source": "1901.08204v1.pdf",
+        "page": 3,
+        "image_number": 1,
+        "image_path": "extracted_images\\1901.08204v1\\page_3_img_1.png",
+        "description": "The image contains a close-up view of a printed circuit board (PCB). It is a PCB-related figure, specifically a diagram or chart showing various components and connections on the board.\n\nNo text is visible in the image.\n\nThe image shows several important technical details:\n- Multiple through-hole pads and vias are visible, indicating the board's layout and connection points.\n- Red arrows and boxes highlight specific areas of interest, likely for analysis or repair.\n- The board appears to have a grid pattern, which is typical for PCBs to facilitate component placement and routing.\n\nThis image can be used by a RAG (Risk Assessment and Gap) system to analyze the PCB's layout and identify potential issues or areas for improvement."
+    },
+    {
+        "source": "1901.08204v1.pdf",
+        "page": 3,
+        "image_number": 2,
+        "image_path": "extracted_images\\1901.08204v1\\page_3_img_2.png",
+        "description": "The image contains a close-up view of a printed circuit board (PCB). It is a PCB-related figure, specifically a photograph of a PCB with various components and traces visible.\n\nThere is no text visible in the image.\n\nThe image shows technical details such as:\n- Multiple traces and vias on the PCB.\n- Components mounted on the board, though the components themselves are not clearly identifiable.\n- A detailed view of the board's surface, highlighting the solder pads and traces.\n\nThis image can be used by a RAG system to identify and analyze PCB components and their layout."
+    },
+    {
+        "source": "1901.08204v1.pdf",
+        "page": 3,
+        "image_number": 3,
+        "image_path": "extracted_images\\1901.08204v1\\page_3_img_3.png",
+        "description": "1. The image contains a bar chart.\n2. It is a PCB-related figure, specifically a bar chart showing the number of PCBs with a certain number of defects.\n3. Important text visible in the image includes:\n   - The x-axis label: \"Number of defects in an image\"\n   - The y-axis label: \"Number of PCBs\"\n   - The numbers on the bars: 1, 16, 232, 14, 412, and 18.\n4. Important technical information shown in the image:\n   - The chart displays the distribution of PCBs based on the number of defects they have.\n   - The majority of PCBs have 5 defects (412 PCBs).\n   - The least number of PCBs have 1 defect (1 PCB).\n   - The number of PCBs with 2, 3, and 4 defects are 16, 232, and 14 respectively.\n   - The number of PCBs with 6 defects is 18.\n\nTechnical Description:\nA bar chart illustrating the distribution of PCBs based on the number of defects they have, with the majority having 5 defects (412 PCBs)."
+    },
+    {
+        "source": "1901.08204v1.pdf",
+        "page": 3,
+        "image_number": 4,
+        "image_path": "extracted_images\\1901.08204v1\\page_3_img_4.png",
+        "description": "The image contains a scatter plot with points representing different data points. The x-axis is labeled \"Width(mm)\" and the y-axis is labeled \"Height(mm).\" Each point is numbered, and some points are grouped together with labels such as \"7,8\" and \"9.\" The points are color-coded, with some points having a black dot and others having a purple dot.\n\nThis is a PCB-related figure, as it appears to represent dimensions of components or areas on a printed circuit board (PCB). The numbers next to the points likely correspond to specific components or areas on the PCB.\n\nThe important text visible in the image includes the axis labels \"Width(mm)\" and \"Height(mm)\" and the numbers next to the points, such as \"1,\" \"4,\" \"5,\" \"6,\" \"7,8,\" \"9,\" \"10,\" \"11,\" and \"12.\"\n\nThe important technical information shown in the image includes the dimensions of the points in millimeters, which could represent the width and height of components or areas on a PCB. The grouping of points (e.g., \"7,8\") might indicate that these points represent the same component or area.\n\n### Technical Description for RAG System:\n\"Scatter plot of PCB component dimensions. X-axis: Width (mm), Y-axis: Height (mm). Points are numbered and color-coded. Grouped points (e.g., '7,8') indicate same component or area.\""
+    },
+    {
+        "source": "1901.08204v1.pdf",
+        "page": 4,
+        "image_number": 2,
+        "image_path": "extracted_images\\1901.08204v1\\page_4_img_2.jpeg",
+        "description": "1. The image contains a circuit board with various electronic components and traces. Green circles highlight specific points of interest on the board.\n\n2. The image is a PCB-related figure, specifically a diagram showing feature points extracted from a box image.\n\n3. The important text visible in the image is \"50 Strongest Feature Points from Box Image.\"\n\n4. The image shows 50 feature points on a circuit board, which are likely used for alignment or registration purposes in a manufacturing or inspection context. The points are evenly distributed across the board, indicating a systematic approach to feature extraction.\n\nTechnical Description:\n- Image type: PCB-related diagram.\n- Content: 50 strongest feature points extracted from a box image on a circuit board.\n- Purpose: Likely used for alignment or registration in manufacturing or inspection processes.\n- Distribution: Evenly distributed across the circuit board."
+    },
+    {
+        "source": "1901.08204v1.pdf",
+        "page": 4,
+        "image_number": 3,
+        "image_path": "extracted_images\\1901.08204v1\\page_4_img_3.jpeg",
+        "description": "The image contains a circuit board (PCB) with 300 strongest feature points marked on it. These points are highlighted with green circles and are labeled with numbers, indicating their positions on the board. The text at the top of the image reads \"300 Strongest Feature Points from Scene Image,\" which suggests that this image is used for feature detection or localization in computer vision or robotics applications.\n\nThis is a diagram, specifically a feature detection diagram for a PCB. The technical information shown includes the number of feature points detected (300) and their locations on the board, which are crucial for tasks such as assembly, quality control, or automated inspection.\n\n### Technical Description for RAG System:\n\"300 strongest feature points detected on a PCB, used for feature localization in computer vision applications.\""
+    },
+    {
+        "source": "1901.08204v1.pdf",
+        "page": 4,
+        "image_number": 4,
+        "image_path": "extracted_images\\1901.08204v1\\page_4_img_4.jpeg",
+        "description": "The image contains a visualization of matched points between two images, specifically focusing on inliers only. This is a common representation in computer vision and photogrammetry, where the goal is to align two images by identifying corresponding points.\n\n1. **What the image contains:**\n   - The image shows a pair of images side by side, with yellow lines connecting corresponding points between the two images. These lines represent matches between the two images.\n   - The points are labeled as \"inliers only,\" indicating that only the points that satisfy a certain threshold of similarity are considered valid matches.\n\n2. **Whether it is a PCB-related figure, diagram, chart, table, or other image:**\n   - This is not a PCB-related figure. It is a visualization of matched points, likely used in the context of image alignment or stereo vision.\n\n3. **Any important text visible in the image:**\n   - The text \"Matched Points(inliers Only)\" is visible at the top of the image, indicating the focus on inliers.\n\n4. **Any important technical information shown in the image:**\n   - The image shows the results of a matching algorithm, where points in the left image are matched to points in the right image.\n   - The yellow lines represent the matches, and the points at the ends of these lines are the matched features.\n   - The term \"inliers only\" suggests that the algorithm has filtered out outliers, focusing on the most reliable matches.\n\n### Technical Description for RAG System:\n- **Image Type:** Matched Points Visualization\n- **Content:** Two images with yellow lines connecting corresponding points (inliers only)\n- **Purpose:** Image alignment or stereo vision\n- **Text:** \"Matched Points(inliers Only)\""
+    },
+    {
+        "source": "1901.08204v1.pdf",
+        "page": 5,
+        "image_number": 2,
+        "image_path": "extracted_images\\1901.08204v1\\page_5_img_2.png",
+        "description": "The image contains a detailed schematic or diagram of a printed circuit board (PCB). It appears to be a technical drawing, likely used for design or manufacturing purposes. The image is zoomed in on specific areas of the PCB, with red boxes highlighting certain components or sections. There are no visible texts or labels that provide specific technical information about the components or their functions. The image is focused on the layout and connections of the PCB, with no additional annotations or labels.\n\n### Technical Description for RAG System:\n- **Image Type:** PCB Schematic Diagram\n- **Purpose:** Design or Manufacturing Reference\n- **Highlighted Areas:** Specific sections of the PCB are highlighted, but no text or labels provide detailed information.\n- **Focus:** Layout and connections of the PCB."
+    },
+    {
+        "source": "1901.08204v1.pdf",
+        "page": 5,
+        "image_number": 3,
+        "image_path": "extracted_images\\1901.08204v1\\page_5_img_3.png",
+        "description": "The image appears to be a close-up view of a printed circuit board (PCB) with a specific area highlighted in red. The highlighted area seems to focus on a component or a section of the board, possibly indicating a point of interest or a problem area.\n\n1. **What the image contains:**\n   - The image is a grayscale representation of a PCB.\n   - A red box and an arrow point to a specific area on the board, suggesting a focus on a particular component or feature.\n\n2. **Whether it is a PCB-related figure, diagram, chart, table, or other image:**\n   - It is a PCB-related figure, specifically a close-up view of a PCB with a highlighted area.\n\n3. **Any important text visible in the image:**\n   - There is no visible text in the image. The focus is on the visual representation of the PCB and the highlighted area.\n\n4. **Any important technical information shown in the image:**\n   - The image highlights a specific area on the PCB, which could be used to identify a component or a potential issue. The red box and arrow suggest that this area is of particular interest.\n\n**Technical Description:**\n- **Image Type:** PCB-related figure.\n- **Content:** Close-up view of a PCB with a highlighted area.\n- **Focus:** Specific area on the PCB, indicated by a red box and arrow.\n- **Purpose:** Likely used to identify a component or highlight a problem area on the PCB."
+    },
+    {
+        "source": "1901.08204v1.pdf",
+        "page": 5,
+        "image_number": 4,
+        "image_path": "extracted_images\\1901.08204v1\\page_5_img_4.png",
+        "description": "The image contains a red rectangular outline on a black background, with a red arrow pointing to the bottom-right corner of the rectangle. There are small white dots scattered around the rectangle and the arrow.\n\n1. **What the image contains**: A simple diagram with a red rectangle and an arrow pointing to a specific corner of the rectangle.\n2. **Whether it is a PCB-related figure, diagram, chart, table, or other image**: It appears to be a diagram, possibly related to a PCB layout or a schematic, as it shows a rectangular shape with an arrow indicating a direction or point of interest.\n3. **Any important text visible in the image**: There is no text visible in the image.\n4. **Any important technical information shown in the image**: The image suggests a focus on a specific corner of a rectangular shape, which could be relevant in a PCB design or a similar technical context where precise positioning is important.\n\n**Technical Description for RAG System**:\n- **Image Type**: Diagram\n- **Content**: Red rectangle with an arrow pointing to the bottom-right corner\n- **Possible Context**: PCB layout or schematic diagram\n- **Key Feature**: Focus on a specific corner of the rectangle"
+    },
+    {
+        "source": "1901.08204v1.pdf",
+        "page": 6,
+        "image_number": 1,
+        "image_path": "extracted_images\\1901.08204v1\\page_6_img_1.png",
+        "description": "1. The image contains a close-up view of a printed circuit board (PCB) with three colored squares (red, yellow, and blue) overlaid on it. The squares appear to highlight specific areas on the PCB.\n\n2. The image is a PCB-related figure, specifically a diagram used to highlight or identify certain components or areas on the PCB.\n\n3. There is no visible text in the image.\n\n4. The technical information shown includes the highlighted areas on the PCB, which could be used to identify components or regions of interest for further analysis or repair. The colored squares suggest a focus on specific parts of the circuit board.\n\n### Technical Description for RAG System:\n\"Highlighted areas on a PCB using red, yellow, and blue squares. These squares are used to identify specific components or regions of interest on the circuit board.\""
+    },
+    {
+        "source": "1901.08204v1.pdf",
+        "page": 6,
+        "image_number": 2,
+        "image_path": "extracted_images\\1901.08204v1\\page_6_img_2.png",
+        "description": "The image appears to be a close-up view of a printed circuit board (PCB). It shows various components and traces on the board, including through-hole pads, vias, and traces. The image is divided into a grid, possibly for analysis or documentation purposes.\n\n1. **What the image contains:**\n   - A close-up of a green PCB with various electronic components and traces.\n   - Through-hole pads and vias are visible.\n   - Some traces and solder points are also present.\n\n2. **Whether it is a PCB-related figure, diagram, chart, table, or other image:**\n   - It is a PCB-related image, likely used for documentation or analysis.\n\n3. **Any important text visible in the image:**\n   - There is no visible text in the image.\n\n4. **Any important technical information shown in the image:**\n   - The image shows the layout of a PCB, including through-hole pads, vias, and traces.\n   - It could be used to identify specific components or to analyze the board's design.\n\n**Technical Description:**\n- **Image Type:** PCB Close-Up\n- **Content:** Through-hole pads, vias, and traces on a green PCB.\n- **Purpose:** Documentation or analysis of a PCB layout."
+    },
+    {
+        "source": "1901.08204v1.pdf",
+        "page": 7,
+        "image_number": 1,
+        "image_path": "extracted_images\\1901.08204v1\\page_7_img_1.png",
+        "description": "The image is a diagram illustrating a convolutional neural network (CNN) architecture, specifically a variant of a ResNet or similar architecture. Here's a breakdown of the image:\n\n1. **Content**: The image shows a series of convolutional layers (labeled \\(H_0\\) to \\(H_5\\)) with different types of convolutional operations and activation functions. The diagram includes:\n   - Input data (top left).\n   - Convolutional layers with different kernel sizes (1x1 and 3x3).\n   - Batch normalization (BN) and ReLU activation functions.\n   - Skip connections (represented by curved arrows) that bypass some layers.\n   - Output with 32 channels (bottom right).\n\n2. **Type**: This is a diagram, specifically a conceptual representation of a neural network architecture.\n\n3. **Text**: The text includes:\n   - \"Input\" (top left).\n   - Layer labels \\(H_0\\) to \\(H_5\\) (top right).\n   - Convolutional layer types: \"BN-ReLU-Conv(1x1)\" and \"BN-ReLU-Conv(3x3)\" (top right).\n   - \"Output with 32 channels\" (bottom right).\n\n4. **Technical Information**: The diagram shows a multi-layer convolutional network with skip connections, which is a common feature in architectures like ResNet. The layers are labeled \\(H_0\\) to \\(H_5\\), indicating a sequence of operations. The convolutional layers use batch normalization and ReLU activation functions. The skip connections allow information to flow from earlier layers to later layers, which helps in gradient flow and prevents vanishing gradients.\n\n### Technical Description for RAG System:\nThis image depicts a multi-layer convolutional neural network architecture with skip connections, batch normalization, and ReLU activation functions. The network includes convolutional layers with 1x1 and 3x3 kernels, and the output has 32 channels. Skip connections are used to bypass some layers, facilitating gradient flow and preventing vanishing gradients."
+    },
+    {
+        "source": "1901.08204v1.pdf",
+        "page": 7,
+        "image_number": 2,
+        "image_path": "extracted_images\\1901.08204v1\\page_7_img_2.png",
+        "description": "The image is a diagram illustrating a convolutional neural network (CNN) architecture. It shows the flow of data through a series of convolutional and pooling layers, followed by a linear layer.\n\n1. **What the image contains:**\n   - A convolutional layer.\n   - A pooling layer.\n   - A series of repeated convolutional and pooling layers.\n   - A final pooling layer followed by a linear layer.\n\n2. **Whether it is a PCB-related figure, diagram, chart, table, or other image:**\n   - It is a diagram, specifically a conceptual diagram of a neural network architecture.\n\n3. **Any important text visible in the image:**\n   - The text \"Convolution\" and \"Pooling\" are visible, indicating the operations performed at each step.\n\n4. **Any important technical information shown in the image:**\n   - The diagram represents a multi-layer convolutional neural network, which is commonly used in image and video processing tasks.\n   - The repeated convolutional and pooling layers suggest a deep network architecture.\n   - The final pooling and linear layers indicate the network's output layer.\n\n**Technical Description:**\nA multi-layer convolutional neural network architecture with repeated convolutional and pooling layers, followed by a final pooling and linear layer. This structure is typical for image and video analysis tasks."
+    },
+    {
+        "source": "1902.06197v1.pdf",
+        "page": 1,
+        "image_number": 1,
+        "image_path": "extracted_images\\1902.06197v1\\page_1_img_1.jpeg",
+        "description": "1. The image contains a simplified representation of a printed circuit board (PCB) with traces and pads.\n2. It is a PCB-related figure, specifically a diagram or schematic representation of a PCB layout.\n3. There is no visible text in the image.\n4. The image shows technical information such as the layout of traces and pads, which are essential for the design and assembly of electronic components on a PCB.\n\nTechnical Description:\n- Simplified PCB layout diagram\n- Traces and pads for electronic component placement\n- No text present\n- Useful for RAG system for PCB design analysis"
+    },
+    {
+        "source": "1902.06197v1.pdf",
+        "page": 1,
+        "image_number": 2,
+        "image_path": "extracted_images\\1902.06197v1\\page_1_img_2.jpeg",
+        "description": "The image contains a detailed diagram of a printed circuit board (PCB). It appears to be a technical illustration used for quality control or inspection purposes, highlighting various defects and anomalies on the PCB.\n\n1. **What the image contains:**\n   - A PCB with various traces and components.\n   - Defects and anomalies are marked with green boxes and labeled with terms such as \"open,\" \"short,\" \"mousebite,\" \"pin-hole,\" \"copper,\" and \"spur.\"\n\n2. **Whether it is a PCB-related figure, diagram, chart, table, or other image:**\n   - It is a PCB-related diagram, specifically used for quality inspection or defect identification.\n\n3. **Important text visible in the image:**\n   - \"open\"\n   - \"pin-hole\"\n   - \"short\"\n   - \"mousebite\"\n   - \"copper\"\n   - \"spur\"\n\n4. **Important technical information shown in the image:**\n   - The image highlights specific defects on the PCB, such as open circuits, short circuits, mousebites, pinholes, copper issues, and spurs.\n   - These defects are visually marked and labeled for easy identification.\n\n### Technical Description for a RAG System:\n\"PCB quality inspection diagram. Highlights defects such as open circuits, short circuits, mousebites, pinholes, copper issues, and spurs. Defects are marked with green boxes and labeled for easy identification.\""
+    }
+]
